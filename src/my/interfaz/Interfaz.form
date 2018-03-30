@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Productores"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="textBuje" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="textNeumatico" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="textRueda" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="textMarco" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="piezaNeumatico" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="piezaBuje" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="piezaRueda" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="piezaMarco" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="playRueda" min="-2" pref="52" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="pausaRueda" min="-2" pref="52" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="playNeu" min="-2" pref="52" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="pausaNeu" min="-2" pref="52" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="playBuje" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                                      <Component id="playMarco" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="pausaBuje" min="-2" pref="52" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="65" pref="65" max="-2" attributes="0"/>
+                                          <Component id="pausaMarco" min="-2" pref="52" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="agregarBuje" pref="43" max="32767" attributes="0"/>
+                                      <Component id="agregarNeumatico" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="despedirNeumatico" min="-2" pref="41" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                          <Component id="despedirBuje" pref="44" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="agregarRueda" max="32767" attributes="0"/>
+                                      <Component id="agregarMarco" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="despedirMarco" pref="44" max="32767" attributes="0"/>
+                                      <Component id="despedirRueda" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Component id="start" alignment="0" min="-2" pref="95" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="tiempoGlobal" min="-2" pref="127" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="41" max="32767" attributes="0"/>
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="tiempoGlobal" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="playNeu" min="-2" pref="42" max="-2" attributes="0"/>
+                                                      <Component id="pausaNeu" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Group type="103" groupAlignment="3" attributes="0">
+                                                      <Component id="agregarNeumatico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="despedirNeumatico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="textNeumatico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="piezaNeumatico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="piezaBuje" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="textBuje" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="playBuje" min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Component id="pausaBuje" min="-2" pref="42" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                          <Component id="agregarBuje" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="despedirBuje" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="pausaRueda" min="-2" pref="42" max="-2" attributes="0"/>
+                                      <Component id="playRueda" min="-2" pref="42" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="piezaRueda" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="textRueda" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="start" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <Component id="agregarRueda" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="despedirRueda" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="agregarMarco" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textMarco" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="piezaMarco" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="despedirMarco" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="playMarco" min="-2" pref="42" max="-2" attributes="0"/>
+                              <Component id="pausaMarco" min="-2" pref="42" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Neumaticos"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bujes"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ruedas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Marcos"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textNeumatico">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="                   "/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textNeumaticoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textBuje">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="                   "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textRueda">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="                   "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textMarco">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="                   "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piezaNeumatico">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="                    "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piezaBuje">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="                    "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piezaRueda">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="                    "/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="piezaRuedaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piezaMarco">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="                    "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="playNeu">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/my/interfaz/1486100045_Play1Disabled.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playNeuActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="agregarNeumatico">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="agregarNeumaticoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="agregarBuje">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="agregarBujeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="agregarRueda">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="agregarRuedaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="agregarMarco">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="agregarMarcoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="despedirNeumatico">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="despedirNeumaticoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="despedirBuje">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="despedirBujeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="despedirRueda">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="despedirRuedaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="despedirMarco">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="despedirMarcoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nro Prod."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Piezas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Estado"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tiempoGlobal">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Noto Sans" size="15" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tiempo Global"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="playBuje">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/my/interfaz/1486100045_Play1Disabled.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playBujeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="playRueda">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/my/interfaz/1486100045_Play1Disabled.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playRuedaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="playMarco">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/my/interfaz/1486100045_Play1Disabled.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playMarcoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="pausaNeu">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/my/interfaz/1486100809_media-playback-pause.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pausaNeuActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="pausaBuje">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/my/interfaz/1486100809_media-playback-pause.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pausaBujeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="pausaRueda">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/my/interfaz/1486100809_media-playback-pause.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pausaRuedaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="pausaMarco">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/my/interfaz/1486100809_media-playback-pause.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pausaMarcoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel15">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Contratar/Despedir"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="start">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="INICIAR"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="startActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Ensambladores"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel10" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="textTriciclo" alignment="0" max="32767" attributes="0"/>
+                      <Component id="textBici" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="tiempoBici" pref="100" max="32767" attributes="0"/>
+                              <Component id="tiempoTriciclo" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="piezaTriciclo" min="-2" pref="111" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="piezaBicicleta" min="-2" pref="111" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                          <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="playBici" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="playTriciclo" min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="pausaBici" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="pausaTriciclo" min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="agregarBicicleta" min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="agregarTriciclo" min="-2" pref="34" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="despedirBicicleta" alignment="1" min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="despedirTriciclo" alignment="1" min="-2" pref="34" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                          <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                          <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="agregarTriciclo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="despedirTriciclo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textBici" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tiempoBici" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="piezaBicicleta" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="playBici" min="-2" pref="42" max="-2" attributes="0"/>
+                              <Component id="pausaBici" min="-2" pref="42" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="despedirBicicleta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="agregarBicicleta" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="pausaTriciclo" min="-2" pref="42" max="-2" attributes="0"/>
+                              <Component id="playTriciclo" min="-2" pref="42" max="-2" attributes="0"/>
+                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                  <Component id="tiempoTriciclo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textTriciclo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="piezaTriciclo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="22" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bicicletas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Triciclos"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nro Ensam."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textBici">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textTriciclo">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tiempo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tiempoBici">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tiempoTriciclo">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cant Prod."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piezaBicicleta">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piezaTriciclo">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="piezaTricicloActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel14">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Estado"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="playBici">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/my/interfaz/1486100045_Play1Disabled.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playBiciActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="playTriciclo">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/my/interfaz/1486100045_Play1Disabled.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playTricicloActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="pausaBici">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/my/interfaz/1486100809_media-playback-pause.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pausaBiciActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="pausaTriciclo">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/my/interfaz/1486100809_media-playback-pause.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pausaTricicloActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="agregarBicicleta">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="agregarBicicletaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="despedirBicicleta">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="despedirBicicletaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="agregarTriciclo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="agregarTricicloActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="despedirTriciclo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="despedirTricicloActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel16">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Contratar/Despedir"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
